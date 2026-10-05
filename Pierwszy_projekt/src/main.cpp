@@ -59,7 +59,7 @@ void updateDisplay(){
   u8g2.firstPage();
   do {
     u8g2.setFont(u8g2_font_ncenB14_tr); 
-    u8g2.drawStr(0, 24, "Siemano");
+    u8g2.drawStr(0, 24, "");
     u8g2.drawStr(0, 50, is_second_set ? "Set: 5-9" : "Set: 0-4"); 
   } while ( u8g2.nextPage() );
 }
